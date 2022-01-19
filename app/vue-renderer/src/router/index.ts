@@ -1,7 +1,7 @@
 import { sampleRoutes } from '@/modules/sample/sample.routes';
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import NotFound from '../fallback-view/NotFound.vue';
+import NotFound from '@/modules/fallback-view/NotFound.vue';
 
 Vue.use(VueRouter);
 const routes: Array<RouteConfig> = [
